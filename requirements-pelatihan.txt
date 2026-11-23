@@ -1,0 +1,4 @@
+matplotlib
+seaborn
+tabulate
+# opsional: xgboost (jika terpasang, train_depan.py dan train_side.py memakainya otomatis)

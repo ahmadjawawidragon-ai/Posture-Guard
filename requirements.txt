@@ -1,0 +1,10 @@
+streamlit>=1.40
+streamlit-webrtc
+av
+mediapipe
+opencv-python
+numpy
+pandas
+scikit-learn==1.9.1
+joblib
+pillow

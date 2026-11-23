@@ -1,0 +1,6 @@
+model,cv_f1_macro_mean,cv_f1_macro_std,train_f1_macro,ho_accuracy,ho_precision_macro,ho_recall_macro,ho_f1_macro,ms_per_sample,ho_recall_TLB,ho_recall_TLF,ho_recall_TUP
+Logistic Regression,0.7662,0.0716,0.7971,0.84,0.8369,0.8429,0.838,0.0045,0.8889,0.9024,0.7375
+Random Forest,0.8059,0.0632,0.8989,0.8444,0.8424,0.8451,0.8432,0.0918,0.8571,0.878,0.8
+SVM (RBF),0.7746,0.0468,0.8546,0.8578,0.8591,0.86,0.857,0.0136,0.8889,0.8537,0.8375
+Gradient Boosting (pengganti XGBoost),0.7949,0.0472,0.9945,0.8222,0.8214,0.8251,0.8178,0.0359,0.873,0.9146,0.6875
+MLP,0.7517,0.0513,0.9743,0.8133,0.8154,0.8138,0.8112,0.0073,0.8254,0.8659,0.75

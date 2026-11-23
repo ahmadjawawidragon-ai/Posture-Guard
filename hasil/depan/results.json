@@ -1,0 +1,33 @@
+{
+ "n_total": 4794,
+ "n_train": 3774,
+ "n_holdout": 1020,
+ "kolom_subjek": "subject",
+ "model_terbaik": "Random Forest",
+ "best_params": {
+  "Logistic Regression": {
+   "m__C": 1
+  },
+  "Random Forest": {
+   "max_depth": null,
+   "min_samples_leaf": 3,
+   "n_estimators": 200
+  },
+  "SVM (RBF)": {
+   "m__C": 10,
+   "m__gamma": "scale"
+  },
+  "Gradient Boosting (pengganti XGBoost)": {
+   "learning_rate": 0.05,
+   "max_depth": 3,
+   "max_iter": 400
+  }
+ },
+ "holdout_dist": {
+  "TLF": 411,
+  "TUP": 334,
+  "TLB": 95,
+  "TLL": 90,
+  "TLR": 90
+ }
+}

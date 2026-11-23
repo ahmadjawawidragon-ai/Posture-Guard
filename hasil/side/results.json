@@ -1,0 +1,49 @@
+{
+ "n_dipakai": 917,
+ "n_total": 924,
+ "n_train": 692,
+ "n_holdout": 225,
+ "deteksi_crop_vs_utuh": {
+  "crop_box_(citra_1_box)": 0.9959128065395095,
+  "citra_utuh_(citra_1_box)": 0.9959128065395095,
+  "n": 734
+ },
+ "ruang_fitur_cv_f1": {
+  "image": 0.508467351720596,
+  "world": 0.7878419707780224
+ },
+ "ruang_fitur_dipilih": "world",
+ "model_terbaik": "Random Forest",
+ "best_params": {
+  "Logistic Regression": {
+   "m__C": 1
+  },
+  "Random Forest": {
+   "max_depth": 6,
+   "min_samples_leaf": 1,
+   "n_estimators": 400
+  },
+  "SVM (RBF)": {
+   "m__C": 1,
+   "m__gamma": "scale"
+  },
+  "Gradient Boosting (pengganti XGBoost)": {
+   "learning_rate": 0.05,
+   "max_depth": 3,
+   "max_iter": 200
+  },
+  "MLP": {
+   "m__alpha": 0.01
+  }
+ },
+ "holdout_dist": {
+  "TLF": 82,
+  "TUP": 80,
+  "TLB": 63
+ },
+ "train_dist": {
+  "TLB": 271,
+  "TUP": 220,
+  "TLF": 201
+ }
+}

@@ -1,0 +1,26 @@
+Sampel dipakai: 917 dari 924
+split label  anotasi  terdeteksi  konflik  gagal_deteksi
+ test   TLB       30          30        0              0
+ test   TLF       38          38        0              0
+ test   TUP       17          17        0              0
+train   TLB      273         271        0              2
+train   TLF      201         201        0              0
+train   TUP      222         220        0              2
+valid   TLB       33          33        0              0
+valid   TLF       45          44        0              1
+valid   TUP       65          63        0              2
+Deteksi crop vs utuh: {'crop_box_(citra_1_box)': 0.9959128065395095, 'citra_utuh_(citra_1_box)': 0.9959128065395095, 'n': 734}
+Ruang fitur: {'image': 0.508467351720596, 'world': 0.7878419707780224} -> world
+Logistic Regression                      CV F1=0.766±0.072  HO F1=0.838  (1s)
+Random Forest                            CV F1=0.806±0.063  HO F1=0.843  (88s)
+SVM (RBF)                                CV F1=0.775±0.047  HO F1=0.857  (2s)
+Gradient Boosting (pengganti XGBoost)    CV F1=0.795±0.047  HO F1=0.818  (98s)
+MLP                                      CV F1=0.752±0.051  HO F1=0.811  (43s)
+Model terbaik (berdasar CV F1 makro): Random Forest
+                                model  cv_f1_macro_mean  cv_f1_macro_std  train_f1_macro  ho_accuracy  ho_precision_macro  ho_recall_macro  ho_f1_macro  ms_per_sample  ho_recall_TLB  ho_recall_TLF  ho_recall_TUP
+                  Logistic Regression             0.766            0.072           0.797        0.840               0.837            0.843        0.838          0.004          0.889          0.902          0.738
+                        Random Forest             0.806            0.063           0.899        0.844               0.842            0.845        0.843          0.092          0.857          0.878          0.800
+                            SVM (RBF)             0.775            0.047           0.855        0.858               0.859            0.860        0.857          0.014          0.889          0.854          0.838
+Gradient Boosting (pengganti XGBoost)             0.795            0.047           0.995        0.822               0.821            0.825        0.818          0.036          0.873          0.915          0.688
+                                  MLP             0.752            0.051           0.974        0.813               0.815            0.814        0.811          0.007          0.825          0.866          0.750
+holdout: {'TLF': 82, 'TUP': 80, 'TLB': 63} | kesalahan model terbaik: 35

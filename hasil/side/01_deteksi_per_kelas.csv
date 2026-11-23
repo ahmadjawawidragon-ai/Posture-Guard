@@ -1,0 +1,10 @@
+split,label,anotasi,terdeteksi,konflik,gagal_deteksi
+test,TLB,30,30,0,0
+test,TLF,38,38,0,0
+test,TUP,17,17,0,0
+train,TLB,273,271,0,2
+train,TLF,201,201,0,0
+train,TUP,222,220,0,2
+valid,TLB,33,33,0,0
+valid,TLF,45,44,0,1
+valid,TUP,65,63,0,2

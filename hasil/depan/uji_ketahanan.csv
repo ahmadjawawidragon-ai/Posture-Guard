@@ -1,0 +1,7 @@
+model,kondisi,f1_makro,recall_TLB,recall_TLF,recall_TLL,recall_TLR,recall_TUP
+Random Forest biasa (sekarang),pinggul normal,0.993,0.991,0.999,0.979,0.988,0.996
+Random Forest biasa (sekarang),pinggul ikut bahu 50%,0.727,0.287,0.541,0.752,0.86,1.0
+Random Forest biasa (sekarang),pinggul ikut bahu 100%,0.103,0.0,0.006,0.0,0.0,1.0
+Random Forest tahan-pinggul (augmentasi),pinggul normal,0.877,0.991,0.997,0.929,0.921,0.649
+Random Forest tahan-pinggul (augmentasi),pinggul ikut bahu 50%,0.866,0.733,0.891,0.9,0.929,0.805
+Random Forest tahan-pinggul (augmentasi),pinggul ikut bahu 100%,0.732,0.265,0.555,0.898,0.919,0.918
